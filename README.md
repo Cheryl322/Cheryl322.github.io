@@ -1,568 +1,111 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Home</title>
-<meta charset="utf-8">
-<meta name = "format-detection" content = "telephone=no" />
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="css/animation.css">
-<link rel="stylesheet" href="css/camera.css">
-<link rel="stylesheet" href="css/contact-form.css">
-<link rel="stylesheet" href="css/touchTouch.css">
-<link rel="stylesheet" href="css/style.css">
-  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-<script src="js/touchTouch.jquery.js"></script>
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/TMForm.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/camera.js"></script>
-<!--[if (gt IE 9)|!(IE)]><!-->
-<script src="js/jquery.mobile.customized.min.js"></script>
-<!--<![endif]-->
-<script>
- $(window).load(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
-  $('.gallery .gall_item').touchTouch();
- });
- $(document).ready(function(){
-     jQuery('#camera_wrap').camera({
-      loader: false,
-      pagination: true ,
-      minHeight: '500',
-      thumbnails: false,
-      height: '44.42708333333333%',
-      caption: true,
-      navigation: false,
-      fx: 'mosaic'
-    });
-    $('.gallery .gall-item').touchTouch();
-  });
-</script>
-<!--[if lt IE 8]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
-</head>
-<body>
-<div class="texture">
-<!--==============================
-              header
-=================================-->
-<header id="home" class="page">
-  <div class="navigation single-page-nav">
-    <div class="container_12">
-      <div class="grid_12">
-        <h1 class="logo">
-          <a href="index.html">Cheryl Cheong</a>
-        </h1>
-        <nav>
-          <ul>
-           <li><a href="#home" class="current">Home</a></li>
-           <li><a href="#portfolio">Portfolio</a></li>
-           <li><a href="#skills">Skills</a></li>
-           <li><a href="#experience">Experience</a></li>
-           <li><a href="#contacts">Contacts</a></li>
-         </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <div id="camera_wrap">
-    <div data-src="images/slide-1.jpg">
-      <div class="caption fadeIn">Your Photographer <span class="bull"></span> Coder  <span class="bull"></span> Designer</div>
-    </div>
-    <div data-src="images/slide-2.jpg">
-      <div class="caption fadeIn">Impressive Designs, Suitable for Cool Projects</div>
-    </div>
-    <div data-src="images/slide-3.jpg">
-      <div class="caption fadeIn">Designs that Work for Your Benefits</div>
-    </div>
-  </div>
-</header>
-<!--=====================
-          Content
-======================-->
-<section class="content">
-  <div class="pad-1">
-    <div class="container_12">
-      <div class="grid_12">
-        <h2>About Me
-          <span>THE BRIEF INTRODUCTION OF MYSELF</span>
-        </h2>
-        <p class="offset__1"> I’m currently studying Bachelor Computer Science (Data Engineering) at University Teknologi Malaysia
-🌱 I’m currently learning C++</p>
-        <img src="images/page-img_1.jpg" alt="" class="fleft">
-        <div class="extra_wrapper">
-          <div class="text-1">
-            Cheryl Cheong Kah Voon
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.2.4, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Francois+One:400">
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"url": "/",
+		"logo": "images/default-logo.png"
+}</script>
+    <meta name="theme-color" content="#47bae3">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="/">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="https://website6130407.nicepage.io/Home.html?version=eeaaf59d-f3e9-7930-f91c-ec7ccf15fbd9" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-fa25"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
+          <img src="images/default-logo.png" class="u-logo-image">
+        </a>
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;" wfd-invisible="true">
+            <a class="u-button-style u-custom-border u-custom-border-color u-custom-borders u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
           </div>
-          <div class="text-2 color1">
-            <a href="#">Photographer</a> &bull;
-            <a href="#">Coder</a> &bull;
-            <a href="#">Designer</a>
+          <div class="u-custom-menu u-nav-container" wfd-invisible="true">
+            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="Portfolio.html" style="padding: 10px 20px;">Portfolio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="skill.html" style="padding: 10px 20px;">Skills</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="Contact.html" style="padding: 10px 20px;">contact</a>
+</li></ul>
           </div>
-          <p>Follow the link to learn more about this <a rel="nofollow" href="http://blog.templatemonster.com/free-website-templates/" class="color1">goodie</a>.  </p>
-          <p>You can find <a rel="nofollow" href="http://www.templatemonster.com/category/personal-pages/" class="color1">personal pages themes</a> in the same name category at TemplateMonster.com.</p>
-          Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  <br>
-          <a href="#" class="btn">Download Resume</a>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-<section id="portfolio" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">My Portfolio</h2>
-      <div id="filters" class="button-group">
-        <a href="https://cheryl322.github.io/1.html" class="btn is-checked" >Year 1</a><br>
-        <a href="#" class="btn" >Year 2</a><br>
-        <a href="#" class="btn" >Year 3</a><br>
-        <a href="#" class="btn" >Year 4</a><br>
-      </div>
-      <div class="el gallery" id="isotope">
-        <div class="element design">
-          <div>
-            <a href="images/big1.jpg" class="gall-item"><img src="images/gal_img1.jpg" alt=""><span></span></a>
-        </div>
-        </div>
-        <div class="element photo">
-          <div>
-            <a href="images/big2.jpg" class="gall-item"><img src="images/gal_img2.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element  photo">
-          <div>
-            <a href="images/big3.jpg" class="gall-item"><img src="images/gal_img3.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="clear"></div>
-        <div class="element ill">
-          <div>
-            <a href="images/big4.jpg" class="gall-item"><img src="images/gal_img4.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element ill">
-          <div>
-            <a href="images/big5.jpg" class="gall-item"><img src="images/gal_img5.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element design">
-          <div>
-            <a href="images/big6.jpg" class="gall-item"><img src="images/gal_img6.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="skills" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2>Skills</h2>
-    </div>
-    <div class="grid_3">
-     <div style="clear:both"></div>
-        <div class="circle">
-          <input class="knob" data-angleOffset="0" value="10" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">c++</a></div>
-    </div>
-    <div class="grid_3">
-      <div class="circle">
-          <input class="knob" data-angleOffset="0" value=10" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">HTML5/CSS3</a></div>
-    </div>
-    <div class="grid_3">
-      <div class="circle">
-          <input class="knob" data-angleOffset="0" value="0" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">Java</a></div>
-    </div>
-    <div class="grid_3">
-      <div class="circle">
-          <input class="knob" data-angleOffset="0" value="0" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
-        </div>
-      <div class="text-3"><a href="#">PHP/MYSQL</a></div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="experience" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2>Work Experience</h2>
-      <div class="block-1">
-        <div class="grid_4 alpha">
-          <div class="block-1__left">
-            <h3>2012 - Present</h3>
-            <time  datetime="2014-01-01" class="text-2">March</time>
-            <div class="ta__right">
-              <div class="text-2 color1">Design Studio</div>
-              Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis.
-            </div>
-          </div>
-        </div>
-        <div class="grid_8 omega">
-          <div class="block-2__right">
-            <h3>Job Description</h3>
-            <div class="text-2">Graphic Designer</div>
-            <p>Dorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  </p>
-            Oliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit
-          </div>
-        </div>
-      </div>
-      <div class="block-1">
-        <div class="grid_4 alpha">
-          <div class="block-1__left">
-            <h3>2007 - 2012</h3>
-            <time  datetime="2014-01-01" class="text-2">April <span>August</span></time>
-            <div class="ta__right">
-              <div class="text-2 color1">Freelancer</div>
-              Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis.
-            </div>
-          </div>
-        </div>
-        <div class="grid_8 omega">
-          <div class="block-2__right">
-            <h3>Job Description</h3>
-            <div class="text-2">Graphic Designer</div>
-            <p>Lorem ipsum dolor sit tetur dipiscing elit. In mollis erat mattis neque facilisis, situltries wertolio dasererat rutrum. Lorem ipsum dolor sit tetur dipiscing elit.  </p>
-            Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuadar faucibusonec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elitllam consectetur orci sed nulla facilisis consequaturabitur vel lorem sit
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-        </div>
-      </blockquote>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section id="contacts" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2>Get in Touch</h2>
-    </div>
-    <div class="grid_6">
-      <form id="contact-form">
-          <div class="contact-form-loader"></div>
-          <fieldset>
-            <label class="name">
-              <input type="text" name="name" placeholder="Name*:" value="" data-constraints="@Required @JustLetters"  />
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*This is not a valid name.</span>
-            </label>
-            <label class="email">
-              <input type="text" name="email" placeholder="E-mail*:" value="" data-constraints="@Required @Email" />
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*This is not a valid email.</span>
-            </label>
-            <label class="phone">
-              <input type="text" name="phone" placeholder="Telephone:" value="" data-constraints="@Required @JustNumbers" />
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*This is not a valid phone.</span>
-            </label>
-            <label class="message">
-              <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-              <span class="empty-message">*This field is required.</span>
-              <span class="error-message">*The message is too short.</span>
-            </label>
-            <div>
-              <a href="#" class="btn" data-type="submit">submit </a>
-            </div>
-          </fieldset>
-          <div class="modal fade response-message">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title">Modal title</h4>
-                </div>
-                <div class="modal-body">
-                  You message has been sent! We will be in touch soon.
-                </div>
+          <div class="u-custom-menu u-nav-container-collapse" wfd-invisible="true">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Portfolio.html">Portfolio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="skill.html">Skills</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html">contact</a>
+</li></ul>
               </div>
             </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70" wfd-invisible="true"></div>
           </div>
-        </form>
+        </nav>
+      </div></header> 
+    <section class="u-clearfix u-section-1" id="sec-6219">
+      <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <div class="u-expanded-width-xs u-shape u-shape-svg u-text-palette-3-base u-shape-1">
+          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 150" style=""><use xlink:href="#svg-8773"></use></svg>
+          <svg class="u-svg-content" viewBox="0 0 160 150" x="0px" y="0px" id="svg-8773"><path d="M43.2,126.9c14.2,1.3,27.6,7,39.1,15.6c8.3,6.1,19.4,10.3,32.7,5.3c11.7-4.4,18.6-17.4,21-30.2c2.6-13.3,8.1-25.9,15.7-37.1
+	c8.3-12.1,10.8-27.9,5.3-42.7C150.5,20.3,134.6,9,117,7.6C107.9,6.9,98.8,5,90.1,1.9C83-0.6,75-0.7,67.4,2.1
+	c-9.9,3.7-17,11.6-20.1,21c-3.3,10.1-10.9,18-20.6,22.2c-0.1,0-0.1,0.1-0.2,0.1c-20.3,8.9-31,32-24.6,53.2
+	C6.9,115.6,25.2,125.2,43.2,126.9z"></path></svg>
+        </div>
+        <div class="u-align-left u-image u-image-circle u-image-1" data-image-width="900" data-image-height="900"></div>
+        <div class="u-align-left u-container-style u-group u-shape-rectangle u-white u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h3 class="u-custom-font u-text u-text-palette-3-base u-text-1" spellcheck="false"> Cheryl Cheong Kah Voon</h3>
+            <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <a href="https://nicepage.com" class="u-border-2 u-border-hover-palette-3-base u-border-palette-3-base u-btn u-button-style u-hover-palette-3-base u-none u-text-body-color u-text-hover-white u-btn-1">learn more</a>
+          </div>
+        </div>
+        <div class="u-shape u-shape-svg u-text-palette-3-base u-shape-2">
+          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xlink:href="#svg-46f5"></use></svg>
+          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-46f5"><path d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110
+	C120.3,10.9,118.7,10,117.1,9.1z M97.5,2L2,97.5c0.4,2,1,4,1.5,5.9l99.9-99.9C101.5,2.9,99.5,2.4,97.5,2z M80,160c2,0,4-0.1,5.9-0.2
+	l73.9-73.9c0.1-2,0.2-3.9,0.2-5.9c0-0.6,0-1.2,0-1.9L78.1,160C78.8,160,79.4,160,80,160z M34.9,146.1c1.5,1,3,2,4.6,2.9L149,39.5
+	c-0.9-1.6-1.9-3.1-2.9-4.6L34.9,146.1z M132.7,19.8L19.8,132.7c1.2,1.3,2.3,2.6,3.6,3.9L136.6,23.4C135.3,22.2,134,21,132.7,19.8z
+	 M59.6,157.4l97.8-97.8c-0.5-1.9-1.1-3.8-1.7-5.7L53.9,155.6C55.8,156.3,57.7,156.9,59.6,157.4z M7.6,45.9L45.9,7.6
+	C29.1,15.5,15.5,29.1,7.6,45.9z M80,0c-2.6,0-5.1,0.1-7.6,0.4l-72,72C0.1,74.9,0,77.4,0,80c0,0.1,0,0.2,0,0.2L80.2,0
+	C80.2,0,80.1,0,80,0z"></path></svg>
+        </div>
       </div>
-      <div class="grid_6">
-       
-        Telephone: +601121192282<br>
-        E-mail: <a href="mailto:cherylcheong88@gmail.com">cherylcheong88@gmail.com</a>
-      </div>
-    <div class="clear"></div>
-  </div>
-  <div class="google-map-api">
-    <div id="map-canvas" class="gmap"></div>
-  </div>
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/cheryl-cheong-1701a727b/" class="fa fa-linkedin"></a>
-        <a href="https://www.facebook.com/cheryl.cheong.5/" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-google-plus"></a>
-        <a href="#" class="fa fa-pinterest"></a>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-</section>
-<!--==============================
-              footer
-=================================-->
-</div>
-<footer id="footer">
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="copyright"> &copy; <span id="copyright-year">2014</span>| <a href="#">Privacy Policy </a> <br>
-       Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
-      </div>
-    </div>
-  </div>
-  <div class="clear"></div>
-</footer>
-<a href="#" id="toTop" class="fa fa-chevron-up"></a>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script>
-  // Prevent console.log from generating errors in IE for the purposes of the demo
-  if ( ! window.console ) console = { log: function(){} };
-  // The actual plugin
-  $('.single-page-nav').singlePageNav({
-      offset: $('.single-page-nav').outerHeight(),
-      filter: ':not(.external)',
-      updateHash: true,
-      beforeStart: function() {
-          console.log('begin scrolling');
-      },
-      onComplete: function() {
-          console.log('done scrolling');
-      }
-  });
-</script>
-<script type="text/javascript">
-          google_api_map_init();
-          function google_api_map_init(){
-            var map;
-            var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14));
-            var styleArray = [
-    {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#193341"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#2c5a71"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#29768a"
-            },
-            {
-                "lightness": -37
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#406d80"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#406d80"
-            }
-        ]
-    },
-    {
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "color": "#3e606f"
-            },
-            {
-                "weight": 2
-            },
-            {
-                "gamma": 0.84
-            }
-        ]
-    },
-    {
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "weight": 0.6
-            },
-            {
-                "color": "#1a3541"
-            }
-        ]
-    },
-    {
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "poi.park",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#2c5a71"
-            }
-        ]
-    }
-]
-           // function initialize() {
-              //var mapOptions = {
-                //zoom: 13,
-                //center: coordData,
-                //scrollwheel: false,
-                //styles: styleArray
-              //}
-             // var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-            //google.maps.event.addDomListener(window, 'resize', function() {
-             // map.setCenter(coordData);
-              //var center = map.getCenter();
-            //});
-         // }
-            //google.maps.event.addDomListener(window, "load", initialize);
-          //}
-      </script>
-              <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
-      <script src="js/jquery.knob.js"></script>
-<script>
-  $(function($) {
-    $(".knob").knob({
-        change : function (value) {
-            //console.log("change : " + value);
-        },
-        release : function (value) {
-            //console.log(this.$.attr('value'));
-            console.log("release : " + value);
-        },
-        cancel : function () {
-            console.log("cancel : ", this);
-        },
-        /*format : function (value) {
-            return value + '%';
-        },*/
-        draw : function () {
-            // "tron" case
-            if(this.$.data('skin') == 'tron') {
-                this.cursorExt = 0.3;
-                var a = this.arc(this.cv)  // Arc
-                    , pa                   // Previous arc
-                    , r = 1;
-                this.g.lineWidth = this.lineWidth;
-                if (this.o.displayPrevious) {
-                    pa = this.arc(this.v);
-                    this.g.beginPath();
-                    this.g.strokeStyle = this.pColor;
-                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
-                    this.g.stroke();
-                }
-                this.g.beginPath();
-                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
-                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
-                this.g.stroke();
-                this.g.lineWidth = 2;
-                this.g.beginPath();
-                this.g.strokeStyle = this.o.fgColor;
-                this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
-                this.g.stroke();
-                return false;
-            }
-        }
-    });
-    // Example of infinite knob, iPod click wheel
-    var v, up=0,down=0,i=0
-        ,$idir = $("div.idir")
-        ,$ival = $("div.ival")
-        ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
-        ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
-    $("input.infinite").knob(
-                        {
-                        min : 0
-                        , max : 20
-                        , stopper : false
-                        , change : function () {
-                                        if(v > this.cv){
-                                            if(up){
-                                                decr();
-                                                up=0;
-                                            }else{up=1;down=0;}
-                                        } else {
-                                            if(v < this.cv){
-                                                if(down){
-                                                    incr();
-                                                    down=0;
-                                                }else{down=1;up=0;}
-                                            }
-                                        }
-                                        v = this.cv;
-                                    }
-                        });
-    });
-</script>
-<script src="js/isotop_ini.js"></script>
-</body>
-</html>
-
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-d4b4"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  
+</body></html>
