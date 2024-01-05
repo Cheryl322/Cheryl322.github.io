@@ -27,7 +27,7 @@
     <meta property="og:type" content="website">
     <link rel="canonical" href="/">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="https://website6130407.nicepage.io/Home.html?version=eeaaf59d-f3e9-7930-f91c-ec7ccf15fbd9" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-fa25"><div class="u-clearfix u-sheet u-sheet-1">
+  <body data-home-page="https://website6130407.nicepage.io/Home.html?version=00b10764-7acd-b398-30d5-d9885fa68573" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-fa25"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="https://nicepage.com" class="u-image u-logo u-image-1">
           <img src="images/default-logo.png" class="u-logo-image">
         </a>
