@@ -565,28 +565,4 @@
 <script src="js/isotop_ini.js"></script>
 </body>
 </html>
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Cheryl322&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-<br/>
 
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cheryl322&hide_border=true&layout=compact" align="center" /></div> 
-
-  
-## Technology and Information System
-<br>
-Assignment<br>
-Industry Talk and Industry Visit:
-<br>
--<a href="https://github.com/Cheryl322/Cheryl322/blob/main/TIS.pdf">Assignment 1 (Format: Poster)</a>
-<br><br>
-  -Assignment 2 (Format: Poster)
-<br><br>
--<a href="https://github.com/Cheryl322/Cheryl322/blob/main/TIS%20Newsletter%20Group%203.pdf">Assignment 3 (Format: Newsletter)</a>
-<br><br>
-  - Assignment 4 (Format: Video)
-<br><br>
-  - PC Assemble (Lab)
-<br>
-<a href="https://github.com/users/Yatib/projects/18">Design Thinking (Low Fidelity Prototype)</a> 
-
-</html>
