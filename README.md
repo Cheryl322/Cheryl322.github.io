@@ -97,7 +97,6 @@
           Content
 ======================-->
 <section class="content">
-  <div class="ic">More Website Templates @ TemplateMonster.com - October 20, 2014!</div>
   <div class="pad-1">
     <div class="container_12">
       <div class="grid_12">
