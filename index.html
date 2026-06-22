@@ -366,7 +366,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            min-height: 480px; /* Aligned height to comfortably match standard reflection payloads */
+            min-height: 520px; /* 统一撑开保证两层盒子在所有卡片完美对齐 */
             transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
                         box-shadow 0.4s ease,
                         border-color 0.4s ease;
@@ -417,7 +417,7 @@
         .reflection-box {
             background: var(--surface-alt);
             padding: 1.2rem;
-            margin: 0.8rem 0 0;
+            margin: 0.6rem 0 0;
             border-radius: 12px;
             font-size: 0.88rem;
             border: 1px solid rgba(226, 232, 240, 0.4);
@@ -452,7 +452,7 @@
 
         /* Fixed Footer Alignment Actions inside Grid Cards */
         .card-footer {
-            margin-top: auto; /* Absolute lock alignment to bottom boundary */
+            margin-top: auto;
             padding-top: 1.25rem;
             border-top: 1px dashed var(--border);
         }
@@ -519,7 +519,7 @@
             <p class="location"><i class="fas fa-map-marker-alt" style="margin-right:4px;"></i> Universiti Teknologi Malaysia | JB Campus</p>
             
             <div class="header-socials">
-                <a href="https://github.com/Cheryl322" target="_blank" class="social-link-badge github-btn">
+                <a href="https://github.com/Cheryl322/Utm_Academic_Archive" target="_blank" class="social-link-badge github-btn">
                     <i class="fab fa-github" style="font-size:1.1rem;"></i> Github Link
                 </a>
                 <a href="https://www.linkedin.com/in/cheryl-cheong-1701a727b/" target="_blank" class="social-link-badge linkedin-btn">
@@ -622,7 +622,7 @@
                                     <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         <strong>Insight:</strong> Defining user friction points with empathy via the Design Thinking framework is the absolute key to delivering system solutions.<br>
-                                        <strong>Suggestion:</strong> Introducing basic automated version control earlier in the semester would accelerate adaptation to enterprise agile teams.
+                                        <strong>Suggestion:</strong> Introducing basic automated version control earlier would accelerate adaptation to enterprise environments.
                                     </div>
                                 </div>
                             </div>
@@ -638,7 +638,7 @@
                             <div class="card-top">
                                 <span class="meta-tag tag-core">Course Core</span>
                                 <h3>Discrete Structure</h3>
-                                <p>Mathematical structures tailored for algorithm modeling, set theories, functions logic, and finite automata machines[cite: 5].</p>
+                                <p>Mathematical structures tailored for algorithm modeling, set theories, functions logic, and finite automata machines.</p>
                                 
                                 <div class="reflection-box success-variant">
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
@@ -649,7 +649,7 @@
                                 <div class="reflection-box warning-variant">
                                     <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
-                                        <strong>Insight:</strong> Modeling deterministic finite automata and finite state machines built the mathematical mindset required to design optimized database structures and data parsing engines[cite: 6].
+                                        <strong>Insight:</strong> Modeling deterministic finite automata and finite state machines built the mathematical mindset required to design optimized database structures and data parsing engines.
                                     </div>
                                 </div>
                             </div>
@@ -729,6 +729,12 @@
                                         Includes R-Script Data Cleaning, Data Probability Worksheets, and Tabular Plotting.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Gained essential data manipulation skills—learning how to filter, summarize, and clean datasets to model predictive variables.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_1/Sem_2/Probability%20%26%20Statistical%20Data%20Analysis" target="_blank"><i class="fab fa-github"></i> Access Repository</a></div>
@@ -744,6 +750,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes File Data Streaming Lab, Pointer Allocations, and Structured Code Checklists.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Mastered data structure handling rules, advancing from localized scripts to modular code file streaming architectures.
                                     </div>
                                 </div>
                             </div>
@@ -763,6 +775,12 @@
                                         Includes Use Case Structural Layouts, Enterprise Architecture Diagrams, and Report Chapters.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Developed the ability to map functional system requirements before coding, ensuring system components align with business architecture.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_1/Sem_2/System%20Analysis%20%26%20Design" target="_blank"><i class="fab fa-github"></i> Access Repository</a></div>
@@ -780,6 +798,12 @@
                                         Includes Assembly Language Opcode Mapping, Register Testing, and Machine Flowcharts.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Demystified register constraints and machine logic execution, providing a strong hardware-level foundation for memory performance tuning.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_1/Sem_2/Computer%20Organization%20%26%20Architecture" target="_blank"><i class="fab fa-github"></i> Access Repository</a></div>
@@ -795,6 +819,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes Low-Fi UI Paper Prototyping, Usability Assessment Surveys, and Figma Sprints.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Reinforced that system optimization is obsolete if the interface layout is counter-intuitive to user workflows.
                                     </div>
                                 </div>
                             </div>
@@ -822,6 +852,12 @@
                                         Includes Linked List Optimization Labs, Tree Balancing Scripts, and Big-O Analyses.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Fundamentally upgraded code profiling structures, forcing me to plan algorithmic architectures based on strict processing metrics and time complexities.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_2/Sem_1/Data%20Structure%20and%20Algorithm" target="_blank"><i class="fab fa-github"></i> Access Workspace</a></div>
@@ -837,6 +873,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes Entity-Relationship Modeling (ERD), SQL Schema Normalization, and DDL/DML Logs.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Acquired practical schema design principles, learning to orchestrate decoupled tables up to 3NF properties to minimize redundancy.
                                     </div>
                                 </div>
                             </div>
@@ -856,6 +898,12 @@
                                         Includes Software Requirement Specifications (SRS), Sprint Backlog Backups, and Agile Board Setups.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Gained a deep understanding of corporate software development flows, tracking feature backlogs within structured agile team constraints.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_2/Sem_1/Software%20Engineering" target="_blank"><i class="fab fa-github"></i> Access Workspace</a></div>
@@ -873,9 +921,15 @@
                                         Includes Full-Stack Component Building, Multi-tier Runtime Configurations, and API Setups.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Successfully built multi-tier web application layers, bridging functional interface logic smoothly with background query executions.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
-                                <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_2/Sem_1/System%20Development%20Technology" target="_blank"><i class="fab fa-github"></i> Access Workspace</a></div>
+                                <div class="meta-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_2/Sem_1/System%20Development%20Technology" target="_blank"><i class="fab fa-github"></i> Access Workspace</a></div>
                             </div>
                         </div>
                         <div class="course-card">
@@ -888,6 +942,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes Socket Programming Implementations, OSI Routing Overviews, and Package Audit Trackers.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Gained essential network tracking intuition, debugging low-level packet transceiving logic across server connections.
                                     </div>
                                 </div>
                             </div>
@@ -913,6 +973,12 @@
                                         Includes Class Inheritance Structures, Encapsulated Modules, and Polymorphic Code Repos.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Replaced linear scripts with decoupled class patterns, building highly encapsulated software architectures capable of enterprise scaling.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_2/Sem_2/Object%20Oriented%20Programming" target="_blank"><i class="fab fa-github"></i> Access Repository</a></div>
@@ -928,6 +994,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes K-Means Clustering Configurations, Classification Verification, and Feature Matrix Extractions.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Built core statistical grouping models, learning to run clustering structures over historic raw files to reveal trends.
                                     </div>
                                 </div>
                             </div>
@@ -947,6 +1019,12 @@
                                         Includes Python Exploratory Data Analysis (EDA), Pandas Pipelines, and Dataset Cleaning Arrays.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Developed full data-cleaning pipelines via Pandas, converting unstructured logs into structured analytics outputs.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_2/Sem_2/Data%20Analytics%20Programming" target="_blank"><i class="fab fa-github"></i> Access Repository</a></div>
@@ -962,6 +1040,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes Process CPU Scheduling Calculations, Concurrency Race-Condition Checks, and Memory Pages Allocation Loops.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Mastered task scheduling logic and memory concurrency handling, tracing how core OS execution loops manage threads.
                                     </div>
                                 </div>
                             </div>
@@ -990,6 +1074,12 @@
                                         Includes Heuristic Search Implementations, Machine Learning Models, and Pattern Tracking Algorithms.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Advanced my programming scope from static procedural pipelines into training heuristic algorithms capable of running within non-deterministic variables.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links">
@@ -1008,6 +1098,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes PL/SQL Advanced Optimization Scripts, Indexing Verification, and DB Cluster Triggers.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Tuned background query indexes and PL/SQL procedures, mastering data transaction rules to ensure cluster performance stability.
                                     </div>
                                 </div>
                             </div>
@@ -1030,6 +1126,12 @@
                                         Includes Enterprise SDLC Architectures, Process Workflow Mapping, and Structural System Diagrams.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Learned to align software architectural maps directly with high-level corporate process constraints and information governance flows.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links">
@@ -1048,6 +1150,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes Process Formulation Overviews, Industrial Parameters Audit, and Analytical Logs.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Explored cross-disciplinary properties, using computational parameter tracking to model and optimize industrial formula changes.
                                     </div>
                                 </div>
                             </div>
@@ -1077,6 +1185,12 @@
                                         Advanced <strong>Alteryx Designer Core</strong> analytical data workflows log paired with cloud-hosted <strong>Azure Data Factory</strong> pipeline synchronization blueprints.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Upgraded my pipeline toolkit by building automated ETL logic in Alteryx Designer Core and handling real-time cloud data triggers in Azure Data Factory.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links">
@@ -1095,6 +1209,12 @@
                                     <div class="reflection-title" style="color:var(--success-text);"><i class="fas fa-mobile-alt"></i> Capstone Showcase</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         <strong>GeniusAqil-OS:</strong> Operational full-stack platform built via Flutter & secure Supabase database logic engineered for Tadika Aqil Miqail.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Developed the problem-solving logic needed to handle cloud storage concurrency and cross-platform reactive data synchronization in agile project scenarios.
                                     </div>
                                 </div>
                             </div>
@@ -1118,6 +1238,12 @@
                                         Includes Apache Spark Data Transformations, High-Throughput Batch Streams, and Storage Configurations.
                                     </div>
                                 </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Scaled my analytical scope into high-throughput computing, configuring parallel map-reduce steps in Spark clusters to execute heavy workloads.
+                                    </div>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <div class="evidence-links"><a href="https://github.com/Cheryl322/Utm_Academic_Archive/tree/main/Year_3/Sem_2/High%20Performance%20Data%20Processing" target="_blank"><i class="fab fa-github"></i> Processing Workspace</a></div>
@@ -1134,6 +1260,12 @@
                                     <div class="reflection-title"><i class="fas fa-project-diagram"></i> Integrated Milestones</div>
                                     <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
                                         Includes Star & Snowflake Schemas Modeling, Multidimensional Data Warehouses, and Interactive Dashboards.
+                                    </div>
+                                </div>
+                                <div class="reflection-box warning-variant">
+                                    <div class="reflection-title"><i class="far fa-comment-alt"></i> Formative Reflection</div>
+                                    <div class="reflection-text" style="font-size:0.82rem; line-height:1.5;">
+                                        <strong>Insight:</strong> Mastered dimensional modeling frameworks, designing star and snowflake schemas to ingest complex records into clear visualization metrics.
                                     </div>
                                 </div>
                             </div>
